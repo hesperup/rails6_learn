@@ -39,7 +39,8 @@ Rails.application.configure do
     password: "ces",
     enable_starttls_auto: true
     }
-config.action_cable.disable_request_forgery_protection = true
+
+  config.action_cable.disable_request_forgery_protection = true
   # Store uploaded files on the local file system (see config/storage.yml for options).
   config.active_storage.service = :local
 
